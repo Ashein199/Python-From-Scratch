@@ -6,7 +6,15 @@
 #     else :
 #         print(f'{name} is Myanmar.')
 
-fruits =["Apple", "Orange", "Banana"];
+# fruits =["Apple", "Orange", "Banana"];
 
-for fruit in fruits :
-    print(f'{fruit} is a fruit .');
+# for fruit in fruits :
+#     print(f'{fruit} is a fruit .');
+
+num = 0;
+while num<10:
+    if num>5:
+        break
+    if num%2==0:
+        print(num);
+    num+=1;
